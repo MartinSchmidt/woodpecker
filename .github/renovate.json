@@ -65,6 +65,10 @@
       "matchDatasources": ["docker"],
       "versioning": "regex:^go-(?<major>\\d+)\\.(?<minor>\\d+)\\.x$",
       "matchPackageNames": ["/techknowlogick/xgo/"]
+    },
+    {
+      "matchFileNames": [".devcontainer/devcontainer.json"],
+      "addLabels": ["devx"]
     }
   ]
 }
